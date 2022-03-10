@@ -121,7 +121,7 @@
       IF EXIST %WinDir%\System32\Drivers\WFPSamplerCalloutDriver.Sys (
          ECHO.
          ECHO Registering the WFPSampler Callout Driver
-            RunDLL32.Exe syssetup,SetupInfObjectInstallAction DefaultInstall 131 %WinDir%\System32\Drivers\WFPSamplerCalloutDriver.Inf
+            RunDLL32.Exe syssetup,SetupInfObjectInstallAction DefaultInstall 132 %WinDir%\System32\Drivers\WFPSamplerCalloutDriver.Inf
             Net Start WFPSamplerCallouts
       )
    )
