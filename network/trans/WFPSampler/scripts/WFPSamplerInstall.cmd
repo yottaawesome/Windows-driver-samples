@@ -80,7 +80,7 @@
       SET WFPSAMPLERSERVICE_EXE="%1\WFPSamplerService.exe"
       SET WFPSAMPLERCALLOUTDRIVER_SYS="%1\WFPSamplerCalloutDriver.sys"
       SET WFPSAMPLERCALLOUTDRIVER="%1\WFPSamplerCalloutDriver.*"
-      SET SIGNTOOL_PATH=
+      SET SIGNTOOL_PATH="C:\Program Files (x86)\Windows Kits\10\App Certification Kit"
    )
 
 :Install
